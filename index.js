@@ -1,6 +1,6 @@
 const { writeFileSync, readFileSync } = require('fs');
 
-const URL = 'https://raw.githubusercontent.com/NikitaVerbitski/banner/master/dist/usrbg.json';
+const URL = 'https://raw.githubusercontent.com/NikitaVerbitski/banner-discord/main/usrbg.json';
 const deadbanner = JSON.parse(readFileSync('./deadbanner.json'));
 let usrbg = {};
 
